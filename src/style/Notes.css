@@ -1,0 +1,68 @@
+#noteshead{
+    font-size: 40px;
+    text-align: center;
+    max-width: 100%;
+    margin: 40px 100px;
+    /* border: 1px solid black; */
+}
+
+
+#notes_container{
+    display: flex;
+    margin: 40px 100px;
+flex-wrap: wrap;
+text-align: center;
+/* border: 1px solid black; */
+gap: 80px;
+justify-content: center;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+}
+
+
+.notes_div{
+border: 1px solid rgba(0, 0, 0, 0.173);
+padding: 10px;
+border-radius: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 8px 0px;
+
+}
+
+.notes_div:hover{
+    transform: scale(1.1);
+    /* background-color: rgba(245, 245, 245, 0.495); */
+}
+
+
+
+.notes_name{
+    font-size: 30px;
+    padding-top: 10px;
+    color: rgba(34, 33, 33, 0.651);
+
+}
+
+
+@media(max-width:376px){
+    #notes_container{
+    margin: 0px 0px;
+
+    }
+
+}
+
+@media(max-width:426px){
+    #notes_container{
+    margin: 0px 0px;
+
+    }
+
+}
+
+@media(max-width:769px){
+    #notes_container{
+    margin: 0px 0px;
+
+    }
+
+}

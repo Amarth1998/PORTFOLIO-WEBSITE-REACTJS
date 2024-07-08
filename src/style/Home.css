@@ -1,0 +1,165 @@
+/* Reset styles and global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+ 
+  #mainContainer {
+    display: flex;
+   
+    justify-content: center; /* Center items horizontally */
+   
+    margin: 100px 100px;
+  }
+
+
+  
+
+  #firstdiv {
+    flex: 50%;
+    /* border: 1px solid black; */
+    text-align: center;
+    justify-content: center; 
+    margin: 10px;
+  }
+
+  #pp{
+    max-width: 100%;
+    height: auto;
+    border-radius: 250px;
+  }
+  
+
+  #seconddiv {
+    margin: 10px;
+    flex: 50%;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+
+#second_div_a{
+    font-size: 30px;
+color:rgba(34, 33, 33, 0.651);
+
+    
+}
+#second_div_b{
+    font-size: 60px;
+}
+#second_div_c{
+    font-size: 30px;
+color:rgba(34, 33, 33, 0.651);
+
+
+}
+
+ 
+  #buttonContainer {
+    display: flex;
+   
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+  
+ 
+  #mediaicon {
+    display: flex;
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+  
+
+
+#btn1_a ,#btn1_b{
+   max-width: 130px;
+    margin: 10px;
+    font-size: 18px;
+     padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+
+    
+}
+
+
+#btn1_a:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5S;
+    
+    
+}
+#btn1_b:hover{
+    background-color: black;
+    color: white;
+    
+    transition: all 0.5S;
+}
+
+
+
+  
+@media(max-width:824px){
+    #mainContainer {
+        display:block;
+      }
+    
+
+
+}
+
+
+@media(max-width:512px){
+ 
+
+    #mainContainer {
+        margin: 50px 0px 0px 0px;
+      }
+      #firstdiv{
+        margin: 25px;
+      }
+      #seconddiv{
+        margin: 25px;
+      }
+
+}
+
+      
+@media(max-width:320px){
+  
+    #firstdiv{
+        margin: 5px;
+      }
+      
+      #seconddiv{
+        margin: 0px;
+      }
+   
+
+}
+@media(max-width:2560px){
+    img{
+        max-width: 60%;
+    }
+}
+
+
+@media(max-width:1024px){
+    img{
+        max-width: 100%;
+    }}
+
+    @media(max-width:768px){
+        img{
+            max-width: 80%;
+        }}

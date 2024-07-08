@@ -1,0 +1,244 @@
+
+  #aboutme{
+    max-width: 100%;
+    text-align: center;
+    /* border: 1px solid black; */
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    
+  }
+
+#about1{
+  max-width: 100%;
+  /* border: 1px solid black; */
+  color: #888888;
+  margin: 20px 100px ;
+font-size: 28px;
+line-height:40px;
+font-family: 'Fauna One', serif !important; 
+}
+
+#about1 img{
+  max-width: 100%;
+
+}
+#hello{  
+font-size: 35px;
+color:black;
+margin-bottom: 10px;
+}
+
+
+
+#about2{
+  display: flex;
+  margin: 80px 100px ;
+}
+
+
+
+#details{
+  flex: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  
+  box-shadow: 1px 0px 4px #888888;
+border-radius: 80px;
+ text-align: center;
+ align-content: center;
+margin: 10px;
+padding: 20px;
+}
+
+#certi{
+  flex: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  box-shadow: 1px 0px  4px #888888;
+border-radius: 80px;
+ text-align: center;
+ align-content: center;
+margin: 10px;
+padding: 20px;
+
+  
+}
+
+#details1{
+  font-size: 50px;
+}
+#details2  {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#details3,#details4{
+color:rgba(34, 33, 33, 0.651);
+font-size: 25px;
+}
+ #certi5{
+  font-size: 30px;
+  font-weight: bolder;
+ }
+#certi1{
+  font-size: 50px;
+
+}
+#certi2,#certi3,#certi4{
+  color:rgba(34, 33, 33, 0.651);
+  font-size: 25px;
+  }
+  
+#certificate_img{
+  display: flex;
+  text-align: center;
+  
+}
+
+
+
+
+#certificate_img1{
+  flex: 50%;
+  max-width: 100%;
+  height: auto;
+}
+#certificate_img2{
+  flex: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media(max-width:600px){
+
+  #about1{
+line-height:35px;
+  font-size: 20px;
+    margin: 20px 20px ;
+  
+  }
+
+  #about2{
+    display: block;
+    margin: 50px 20px ;
+  }
+  #certi{
+    margin-top: 50px;
+  }
+  #certificate_img{
+    display: block;
+  }
+
+  #certificate_img2{
+    margin-top: 10px;
+  }
+}
+
+
+@media(max-width:425px){
+  #certificate_img{
+    display: block;
+  }
+#details1{
+  font-size: 30px;
+}
+#details2  {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#details3,#details4{
+color:rgba(34, 33, 33, 0.651);
+font-size: 20px;
+}
+ #certi5{
+  font-size: 25px;
+  font-weight: bolder;
+ }
+#certi1{
+  font-size: 40px;
+
+}
+#certi2,#certi3,#certi4{
+  color:rgba(34, 33, 33, 0.651);
+  font-size: 20px;
+  }
+  
+  #certificate_img2{
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:320px){
+  
+  #details1{
+    font-size: 25px;
+  }
+  #details2  {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  #details3,#details4{
+  color:rgba(34, 33, 33, 0.651);
+  font-size: 15px;
+  }
+   #certi5{
+    font-size: 20px;
+    font-weight: bolder;
+   }
+  #certi1{
+    font-size: 30px;
+  
+  }
+  #certi2,#certi3,#certi4{
+    color:rgba(34, 33, 33, 0.651);
+    font-size: 15px;
+    }
+    
+    #about1{
+      line-height: 30px;
+    }
+    #certificate_img{
+      display: block;
+    }
+  
+    #certificate_img2{
+      margin-top: 10px;
+    }
+  }
+
+
+@media(max-width:768px){
+  #details1{
+    font-size: 20px;
+  }
+  #details2  {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  #details3,#details4{
+  color:rgba(34, 33, 33, 0.651);
+  font-size: 15px;
+  }
+   #certi5{
+    font-size: 20px;
+    font-weight: bolder;
+   }
+  #certi1{
+    font-size: 25px;
+  
+  }
+  #certi2,#certi3,#certi4{
+    color:rgba(34, 33, 33, 0.651);
+    font-size: 15px;
+    }
+    
+    #about1{
+      line-height: 30px;
+    }
+
+  
+
+}
