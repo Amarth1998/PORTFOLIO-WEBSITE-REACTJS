@@ -20,7 +20,7 @@ Full Stack Development: Ability to seamlessly integrate frontend and backend fun
 UI/UX Design: Knowledgeable about creating intuitive interfaces that enhance user satisfaction.
 <br /> <br />
 <div id="hello"> Skills</div> 
-<img src="public\skll.png" alt=""  style={{width:"100%"}}/>
+<img src="skll.png" alt=""  style={{width:"100%"}}/>
 
 </div>
 
