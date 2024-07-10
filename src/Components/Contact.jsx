@@ -46,11 +46,12 @@ const Contact = () => {
 
           <div id='social_media'> 
           <div><BsFillTelephoneForwardFill />  8827079303 </div>
-          <div><MdMarkEmailRead /> amarthpatel@gmail.com</div>
+          <div><MdMarkEmailRead /> amarthpatel.ap@gmail.com</div>
               
               <div> < IoLocationOutline /> M.P. Nagar ,Bhopal,Madhya Pradesh</div>
 
-              <div id='contact_icon'> <CiLinkedin onClick={()=>{ window.open("https://www.linkedin.com/in/amarth-patel-58712b185/")}}  />   <FaGithub  onClick={()=>{ window.open("https://github.com/Amarth1998")}} />  <FaFacebookSquare  onClick={()=>{ window.open("https://www.linkedin.com/in/amarth-patel-58712b185/")}} /> < FaInstagramSquare  onClick={()=>{ window.open("https://www.linkedin.com/in/amarth-patel-58712b185/")}} /> < FaSquareXTwitter  onClick={()=>{ window.open("https://www.linkedin.com/in/amarth-patel-58712b185/")}} /> </div>
+              <div id='contact_icon'> <CiLinkedin onClick={()=>{ window.open("https://www.linkedin.com/in/amarth-patel-58712b185/")}}  />   <FaGithub  onClick={()=>{ window.open("https://github.com/Amarth1998")}} />  <FaFacebookSquare  onClick={()=>{ window.open("https://www.facebook.com/amarth.patel.5?mibextid=ZbWKwL")}} /> 
+      < FaInstagramSquare  onClick={()=>{ window.open("https://www.instagram.com/a_4_amarth?igsh=MWtwazVnY3k3bG9wYw==")}} /> < FaSquareXTwitter  onClick={()=>{ window.open("https://x.com/amarth_patel?t=58dMb2-7Dnd_KFhZJgGB2Q&s=09")}} /> </div>
              
              </div>
 
@@ -58,7 +59,7 @@ const Contact = () => {
           <div id='contact_form'>  
 
             <div id='form_container'> 
-            <div id='contact_form_heading'>Send us a mail </div>
+            <div id='contact_form_heading'>Send me a mail </div>
           <form ref={form} onSubmit={sendEmail}>
   
   <input type="text" id="name"  name="to_name" placeholder="Your name..."/>
