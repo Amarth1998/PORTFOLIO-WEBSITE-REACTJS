@@ -56,7 +56,7 @@ UI/UX Design: Knowledgeable about creating intuitive interfaces that enhance use
            
 
 <div id="certificate_img"> 
-<div id="certificate_img1" > <img src="certificate1.jpeg"  /> </div> 
+<div id="certificate_img1" > <img src="Cybrom_amarth_patel.jpg"  /> </div> 
 <div  id="certificate_img2"><img src="certificate3.jpeg"  /></div>
 </div>
 
