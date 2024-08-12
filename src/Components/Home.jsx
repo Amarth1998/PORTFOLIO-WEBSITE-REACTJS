@@ -19,7 +19,7 @@ const Home = () => {
                  <div id='second_div_c'>FULL STACK DEVELOPER</div>
 
                  <div id='buttonContainer'>
-                  <div > <a  id='btn1_a' href="public\amarthpatel_resume.pdf" download>Download CV </a></div>
+                  <div > <a  id='btn1_a' href="public\AMARTHPATEL_RESUME___.pdf" download>Download CV </a></div>
                   <div  > <Link id='btn1_b' to="Contact">Contact me</Link></div>
                  </div>
 
