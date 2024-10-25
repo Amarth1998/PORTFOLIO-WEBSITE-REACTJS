@@ -15,7 +15,7 @@ const About = () => {
 
 I have a strong foundation in: <br />
 Frontend Development: Proficient in HTML5, CSS3, JavaScript (ES6+), React.js, and responsive design principles. <br />
-Backend Development: Experienced in Node.js, Express.js, MongoDB, SQL databases. <br />
+Backend Development: Experienced in Laravel ,PHP, Node.js, Express.js, SQL databases. <br />
 Full Stack Development: Ability to seamlessly integrate frontend and backend functionalities to deliver robust applications. <br />
 UI/UX Design: Knowledgeable about creating intuitive interfaces that enhance user satisfaction.
 <br /> <br />
@@ -34,7 +34,7 @@ UI/UX Design: Knowledgeable about creating intuitive interfaces that enhance use
   <div id="details">
     <div id="details1"><PiStudent /></div>
     <div id="details2">Eduction</div>
-    <div id="details3">Bachelor of Engineering  | 2020</div>
+    <div id="details3">Bachelor of Engineering</div>
     <div id="details4">Madhav Institute of Technology and Science, Gwalior, M.P.</div>
       </div>
 

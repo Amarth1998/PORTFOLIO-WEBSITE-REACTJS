@@ -15,7 +15,36 @@ const Projects = () => {
 
 
       <div class="project-container">
+       
+      <div class="project-container1">
+          <div class="project-container11">
+            <div class="project-img-div">  <img src="./assets/nib3.png" width={"180px" }   alt="Project 1" class="project-img" /> </div>
+            <h2 class="project-h2">Notion Insurance Broker</h2>            
+
+            <h2 class="project-h1">React</h2>
+            
+            <div class="project-btn-container">
+              <button class="project-btn" onClick={()=>{ window.open("https://github.com/Amarth1998/notion-insurance-broker-website")}} >Github </button>
+              <button class="project-btn" onClick={()=>{ window.open("https://www.notioninsurance.com/")}}   > Live  </button>
+            </div>
+            </div>
+        </div>
       
+
+        <div class="project-container1">
+          <div class="project-container11">
+            <div class="project-img-div">  <img src="./assets/clove.png" width={"450px" }   alt="Project 1" class="project-img" /> </div>
+            <h2 class="project-h2">Clove Dental </h2>            
+
+            <h2 class="project-h1">React</h2>
+            
+            <div class="project-btn-container">
+              <button class="project-btn" onClick={()=>{ window.open("https://github.com/Amarth1998/CloveDental-website-Responsive-amarth")}} >Github </button>
+              <button class="project-btn" onClick={()=>{ window.open("https://clovedentalcom-web-dev-amarth.netlify.app/")}}   > Live  </button>
+            </div>
+            </div>
+        </div>
+
         <div class="project-container1">
           <div class="project-container11">
             <div class="project-img-div">  <img src="./assets/project-1.png" width={"280px" }   alt="Project 1" class="project-img" /> </div>
@@ -29,9 +58,6 @@ const Projects = () => {
             </div>
             </div>
         </div>
-
-
-
 
         <div class="project-container1">
           <div class="project-container11">
@@ -61,6 +87,7 @@ const Projects = () => {
             </div>
             </div>
         </div>
+
         <div class="project-container1">
           <div class="project-container11">
             <div class="project-img-div">  <img src="sms.webp" width={"280px"}  alt="Project 1" class="project-img" /> </div>
