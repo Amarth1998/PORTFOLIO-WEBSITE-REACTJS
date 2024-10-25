@@ -15,7 +15,7 @@ const Home = () => {
        
        <div id="seconddiv" >  
                  <div id='second_div_a'>Hello i am</div>
-                 <div id='second_div_b'>Amarth Patel</div>
+                 <div id='second_div_b'>Amarth</div>
                  <div id='second_div_c'>FULL STACK DEVELOPER</div>
 
                  <div id='buttonContainer'>
