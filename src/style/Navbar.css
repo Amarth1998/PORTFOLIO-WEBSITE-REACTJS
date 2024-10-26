@@ -108,6 +108,9 @@ a.incre:active{
       color: white;
   }
   
+  a.incre:hover{
+    color: white;
+  }
   #menuList {
     max-height: 0;
     overflow: hidden;
