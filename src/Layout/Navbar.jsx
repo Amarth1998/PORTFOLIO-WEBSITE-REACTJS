@@ -30,9 +30,14 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="incre" to="Projects" onClick={handleLinkClick}>
               Projects
+            </Link>
+          </li> */}
+          <li>
+            <Link className="incre" to="Project" onClick={handleLinkClick}>
+              Project
             </Link>
           </li>
           <li>

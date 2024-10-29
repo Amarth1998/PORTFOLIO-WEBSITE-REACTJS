@@ -32,7 +32,7 @@ UI/UX Design: Knowledgeable about creating intuitive interfaces that enhance use
 
 <div id="about2">
   <div id="details">
-    <div id="details1"><PiStudent /></div>
+    {/* <div id="details1"><PiStudent /></div> */}
     <div id="details2">Eduction</div>
     <div id="details3">Bachelor of Engineering</div>
     <div id="details4">Madhav Institute of Technology and Science, Gwalior, M.P.</div>
@@ -41,7 +41,7 @@ UI/UX Design: Knowledgeable about creating intuitive interfaces that enhance use
 
       <div id="certi"> 
        
-        <div id="certi1"><PiCertificateLight /></div>
+        {/* <div id="certi1"><PiCertificateLight /></div> */}
         <div id="certi5">Certification</div>
         <div id="certi2">Python Certification  |   Google </div>
         <div id="certi3">Full stack web development course |  Cyborm Technology </div>

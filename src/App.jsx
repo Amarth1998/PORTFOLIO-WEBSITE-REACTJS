@@ -6,7 +6,9 @@ import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 
 import About from "./Components/About";
-import Projects from "./Components/Projects";
+// import Projects from "./Components/Projects";
+import Project from "./Components/Project";
+
 import Notes from "./Components/Notes";
 
 const App = () => {
@@ -20,7 +22,9 @@ const App = () => {
             <Route path="Contact" element={<Contact />} />
             <Route path="Notes" element={<Notes />} />
             <Route path="About" element={<About />} />
-            <Route path="Projects" element={<Projects />} />
+            {/* <Route path="Projects" element={<Projects />} /> */}
+            <Route path="Project" element={<Project />} />
+
             
 
           </Route>

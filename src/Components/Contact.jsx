@@ -1,5 +1,6 @@
 import React from 'react'
 import "../style/Contact.css"
+// import styles from '../style/Contact.module.css'; // Import the CSS module
 // import { FaRegAddressBook } from "react-icons/fa";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { MdMarkEmailRead } from "react-icons/md";
@@ -45,12 +46,12 @@ const Contact = () => {
 
 
           <div id='social_media'> 
-          <div><BsFillTelephoneForwardFill />  8827079303 </div>
-          <div><MdMarkEmailRead /> amarthpatel.ap@gmail.com</div>
+          <div > 8827079303 </div>
+          <div>amarthpatel.ap@gmail.com</div>
               
-              <div> < IoLocationOutline /> M.P. Nagar ,Bhopal,Madhya Pradesh</div>
+              <div>  M.P. Nagar ,Bhopal,Madhya Pradesh</div>
 
-              <div id='contact_icon'> <CiLinkedin onClick={()=>{ window.open("https://www.linkedin.com/in/amarth-patel-58712b185/")}}  />   <FaGithub  onClick={()=>{ window.open("https://github.com/Amarth1998")}} />  <FaFacebookSquare  onClick={()=>{ window.open("https://www.facebook.com/amarth.patel.5?mibextid=ZbWKwL")}} /> 
+              <div id='contact_icon' className='flex  gap-6  justify-center'> <CiLinkedin onClick={()=>{ window.open("https://www.linkedin.com/in/amarth-patel-58712b185/")}}  />   <FaGithub  onClick={()=>{ window.open("https://github.com/Amarth1998")}} />  <FaFacebookSquare  onClick={()=>{ window.open("https://www.facebook.com/amarth.patel.5?mibextid=ZbWKwL")}} /> 
       < FaInstagramSquare  onClick={()=>{ window.open("https://www.instagram.com/a_4_amarth?igsh=MWtwazVnY3k3bG9wYw==")}} /> < FaSquareXTwitter  onClick={()=>{ window.open("https://x.com/amarth_patel?t=58dMb2-7Dnd_KFhZJgGB2Q&s=09")}} /> </div>
              
              </div>
